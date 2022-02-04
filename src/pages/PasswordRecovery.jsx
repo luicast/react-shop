@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/RecoveryPassword.scss';
+import { Link } from 'react-router-dom';
+import '../styles/PasswordRecovery.scss';
 
 const RecoveryPassword = () => {
     return(
@@ -14,7 +15,7 @@ const RecoveryPassword = () => {
                 <button className="primary-button login-button">Login</button>
                 <p className="resend">
                 <span>Didn't receive the email?</span>
-                <a href="/">Resend</a>
+                <Link to="/">Resend</Link>
                 </p>
             </div>
         </div>
