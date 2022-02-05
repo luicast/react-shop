@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '@styles/login.scss';
-
 import logo from '@logos/logo_yard_sale.svg';
 
 const Login = () => {
